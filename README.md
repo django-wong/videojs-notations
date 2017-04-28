@@ -1,6 +1,10 @@
 ### videojs-notations
 =================
 
+
+![](https://raw.githubusercontent.com/django-wong/videojs-notations/master/Screen%20Shot%202017-04-28.png)
+
+
 A plugin for videojs inspired by [ajbogh/video-js-html5Thumbnails](https://github.com/ajbogh/video-js-html5Thumbnails) and [spchuang/videojs-markers](https://github.com/spchuang/videojs-markers)
 
 -----
