@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./dist/videojs-notations.css">
+        <link rel="stylesheet" type="text/css" href="http://vjs.zencdn.net/5.19.2/video-js.css">
+        <script type="text/javascript" src="http://vjs.zencdn.net/5.19.2/video.js"></script>
+        <script type="text/javascript" src="./dist/videojs-notations.js"></script>
+        <style type="text/css"></style>
+    </head>
+    <body>
+    	<video id="video" class="video-js vjs-default-skin" muted="muted" controls poster="http://vjs.zencdn.net/v/oceans.png" preload="auto" width="640" height="480">
+            <source src='http://vjs.zencdn.net/v/oceans.mp4' type='video/mp4' label="蓝光"/>
+        </video>
+    </body>
+    <script type="text/javascript">
+    	var video = videojs('video', {
+    		'bigPlayButton': true,
+    		'loadingSpinner': true
+    	});
+    	video.notations({
+    		'notations': [
+                {
+                    'time': 3,
+                    'text': 'Scantly unrepealably slinky'
+                },
+                {
+                    'time': 12.2,
+                    'text': 'Unbulky bemoisten slumberer bash'
+                },
+                {
+                    'time': 32.21,
+                    'text': 'Inappropriately havel'
+                }
+            ],
+            'size': 180,
+            'fontSize': 12,
+            'showPreviewWhenHoverOnSeekBar': false
+    	});
+    </script>
+</html>

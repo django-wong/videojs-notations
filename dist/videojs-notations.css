@@ -1,0 +1,43 @@
+.vjs-notation {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  margin-left: -3.5px;
+  top: 50%;
+  margin-top: -3.5px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 9999;
+}
+.vjs-notations-preview {
+  width: 120px;
+  height: auto;
+  display: grid;
+  position: absolute;
+  bottom: 30px;
+  display: none;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+.vjs-notations-preview .wrapper {
+  position: relative;
+  width: 100%;
+}
+.vjs-notations-preview video {
+  width: 100%;
+}
+.vjs-notations-preview .vjs-notation-text {
+  color: white;
+  width: 100%;
+  word-break: break-all;
+  position: absolute;
+  padding: 6px;
+  bottom: 0;
+  margin: 0;
+  text-shadow: 1px 1px 11px black;
+}
+.vjs-notations-preview .vjs-notation-time {
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
