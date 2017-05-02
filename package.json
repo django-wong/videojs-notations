@@ -1,6 +1,6 @@
 {
   "name": "videojs-notations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A videojs plugin to show notations",
   "main": "dist/videojs-notations.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/django-wong/videojs-notations.git"
+    "url": "https://github.com/django-wong/videojs-notations.git"
   },
   "keywords": [
     "videojs"
   ],
   "author": "Django Wong",
-  "license": "MIT",
+  "license": "WTFPL",
   "bugs": {
-    "url": "https://gitlab.com/django-wong/videojs-notations/issues"
+    "url": "https://github.com/django-wong/videojs-notations/issues"
   },
-  "homepage": "https://gitlab.com/django-wong/videojs-notations#README",
+  "homepage": "https://github.com/django-wong/videojs-notations#readme",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-polyfill": "^6.23.0",
