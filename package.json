@@ -1,6 +1,6 @@
 {
   "name": "videojs-notations",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A videojs plugin to show notations",
   "main": "dist/videojs-notations.js",
   "scripts": {
