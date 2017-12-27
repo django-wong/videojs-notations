@@ -1,8 +1,8 @@
 /*
 * @Author: Django Wong
 * @Date:   2017-04-27 17:32:25
-* @Last Modified by:   Django Wong
-* @Last Modified time: 2017-04-28 03:18:29
+* @Last Modified by:   django-wong
+* @Last Modified time: 2017-12-27 16:31:43
 * @File Name: videojs-notations.js
 */
 
@@ -11,7 +11,6 @@
 class Notations {
 	constructor(video, options) {
 		console.info('videojs-notations.js is inited');
-		video.notations = this;
 		this.options = Object.assign(Notations.DefaultOptions, options);
 		this.notations = [];
 		this.video = video;
